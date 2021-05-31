@@ -1,6 +1,10 @@
-# umi project
+# Car homework frontend
 
 ## Getting Started
+
+
+To start
+
 
 Install dependencies,
 

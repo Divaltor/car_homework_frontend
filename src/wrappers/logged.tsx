@@ -6,7 +6,7 @@ export default function(props: IRouteComponentProps) {
   const { authenticated } = useContext(UserLogged);
 
   if (authenticated) {
-    history.goBack();
+    history.push('/');
   }
 
   return props.children;

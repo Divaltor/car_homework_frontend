@@ -42,7 +42,7 @@ export default function App(props: any) {
 
       axios.interceptors.response.use(undefined, async error => {
 
-        if (error.response.status !== 401 || !error.response.data.detail?.includes('token')) {
+        if (error.response?.status !== 401 || !error.response?.data?.detail?.includes('token')) {
           return Promise.reject(error);
         }
 
