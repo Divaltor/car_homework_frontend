@@ -3,7 +3,7 @@
 ## Getting Started
 
 
-To start
+Install backend service: https://github.com/Divaltor/car_homework_backend
 
 
 Install dependencies,
